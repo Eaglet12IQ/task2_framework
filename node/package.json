@@ -1,0 +1,17 @@
+﻿{
+  "name": "pr2-modules-and-di-template",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test",
+    "demo": "node demo/runScenario.js",
+    "demo:basic": "node demo/runScenario.js basic",
+    "demo:full": "node demo/runScenario.js full",
+    "demo:missing": "node demo/runScenario.js missing",
+    "demo:cycle": "node demo/runScenario.js cycle",
+    "demo:external": "node demo/runScenario.js with-external",
+    "demo:incompatible": "node demo/runScenario.js with-incompatible"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+dist/
+coverage/
+export.txt
+package-lock.json

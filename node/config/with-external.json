@@ -1,0 +1,7 @@
+{
+  "modules": [
+    "core.js",
+    "logging.js",
+    "externalModule.js"
+  ]
+}
